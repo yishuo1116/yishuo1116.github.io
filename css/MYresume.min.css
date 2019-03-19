@@ -2,3 +2,7 @@ body {
 	font-family: 'Noto Sans TC', sans-serif;
 }
 h1{font-family: 'Noto Sans TC', sans-serif;}
+.bg-primary{
+	background-color: #300057!important;
+background-image: url("https://www.transparenttextures.com/patterns/debut-light.png");
+}
