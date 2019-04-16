@@ -1,19 +1,52 @@
 
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Noto Sans TC', sans-serif;
+	text-transform: none;
+}
+
+.subheading {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 1.2rem;
+	text-transform: none;
+	letter-spacing: -0.05rem;
+}
+
+h1 .text-primary {
+	font-size: 3rem;
+	letter-spacing: -0.05rem;
+	line-height: 3rem;
+}
+
+.bg-primary {
+	background-color: #8600ff!important;
+}
+
+.text-primary {
+	color: #8600ff!important;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+	text-transform: none;
+}
 
 a {
-	color: #4028EB;
+	color: #8600ff;
 }
 
 a:active, a:focus, a:hover {
-	color: #4028EB;
+	color: #8600ff;
 }
 
 .social-icons a:hover {
-	background-color: #4028EB;
+	background-color: #8600ff;
 }
 
 .dev-icons .list-inline-item i:hover {
-    color: #4028EB;
+    color: #8600ff;
 }
 
 .graph_set {
@@ -31,7 +64,7 @@ a:active, a:focus, a:hover {
 
 .timeline::after {
   content: '';
-  background-color: #4028EB;
+  background-color: #8600ff;
   position: absolute;
   width: 6px;
   top: 0;
@@ -55,10 +88,11 @@ a:active, a:focus, a:hover {
   height: 25px;
   right: -12px;
   background-color: white;
-  border: 4px solid #4028EB;
+  border: 4px solid #8600ff;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
+  
 }
 
 /* Place the container to the left */
@@ -100,4 +134,3 @@ a:active, a:focus, a:hover {
     left: 17px;
   }
 }
-
